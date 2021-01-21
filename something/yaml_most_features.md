@@ -1,3 +1,5 @@
+## Một vài mẹo với YAML
+
 &nbsp;&nbsp;YAML là định dạng tệp thường được sử dụng để serialization dữ liệu. Có rất nhiều dự án sử dụng tệp YAML để cấu hình, chẳng hạn như
 [Docker-compose](https://docs.docker.com/compose/),[pre-commit](https://pre-commit.com/#2-add-a-pre-commit-configuration),
 [TravisCI](https://docs.travis-ci.com/user/build-config-yaml), [AWS Cloudformation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-formats.html),
@@ -268,5 +270,5 @@ Nếu bạn chuyển chúng sang dạng list và in nó, bạn sẽ nhận đư�
 
 Xin lưu ý rằng đây không phải là một ký hiệu thay thế để viết danh sách. Đó là các tài liệu khác nhau.
 
-
-
+## Tài liệu tham khảo
+https://levelup.gitconnected.com/6-yaml-features-most-programmers-dont-know-164762343af3
