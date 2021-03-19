@@ -34,11 +34,13 @@ thực form, đồng thời cung cấp tên thuộc tính cho từng trường c
 
 Nhưng còn những trường hợp khác nâng cao hơn nhưng vẫn thường xuyên gặp phải trong đó formnăng động hơn nhiều và không phải tất cả các trường trong form đều được biết
 trước (nếu có)?
+
 Bạn hãy tưởng tượng một form động trong đó các form control được người dùng thêm hoặc xóa vào biểu mẫu, tùy thuộc vào tương tác của nó với giao diện người dùng.
 Một ví dụ sẽ là một form được xây dựng hoàn toàn động theo dữ liệu đến từ backend!
 
 Một ví dụ khác phổ biến hơn về form động sẽ là một bảng có thể chỉnh sửa tại chỗ, nơi người dùng có thể thêm hoặc xóa các dòng chứa nhiều form control có
 thể chỉnh sửa:
+
 ![alt text](https://angular-university.s3-us-west-1.amazonaws.com/blog-images/angular-form-array/angular-form-array-example.png)
 
 Trong form động này, người dùng có thể thêm hoặc xóa các form control mới cho form bằng cách sử dụng các nút Thêm và Xóa. Mỗi lần người dùng nhấp vào nút Thêm, một hàng
@@ -103,6 +105,7 @@ Ban đầu, FormArray trống và không chứa form control, có nghĩa là b�
 Mình đã thêm vào component một getter cho thuộc tính lessons , để làm cho nó dễ dàng truy cập cá thể FormArray một cách đơn giản và an toàn về kiểu.
 Ngoài ra, hãy lưu ý trong ảnh chụp màn hình bảng có thể chỉnh sửa được hiển thị trước đó, mỗi hàng trong bảng chứa hai control: trường tiêu đề bài học và
 trường cấp độ bài học (hoặc độ khó).
+
 Mình muốn các trường này là một phần của parent form của component này và ảnh hưởng đến trạng thái hợp lệ của nó. Nếu lỗi xảy ra ở tiêu đề của một
 trong các bài học, thì toàn bộ form sẽ được coi là không hợp lệ.
 
