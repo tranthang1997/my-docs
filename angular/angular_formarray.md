@@ -240,6 +240,7 @@ Như chúng ta có thể thấy, form bảng có thể chỉnh sửa của chún
 Và mỗi form trên 1 hàng của bảng chứa hai form control bên trong nó.
 
 ##Tài liệu tham khảo
+
 https://blog.angular-university.io/angular-form-array/
 
   
