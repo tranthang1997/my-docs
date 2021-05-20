@@ -130,7 +130,7 @@ Phát hiện sự cố là một trong những lý do chính khiến mọi ngư�
 
 Vì mục đích bảo mật, bạn có thể muốn biết người dùng nào đã đăng nhập hoặc cố gắng đăng nhập vào hệ thống của bạn. Bạn có thể kiểm tra nhật ký xác thực của mình để tìm những lần đăng nhập không thành công, xảy ra khi người dùng cung cấp thông tin xác thực không chính xác hoặc không có quyền đăng nhập. Điều này thường xảy ra khi sử dụng SSH để truy cập từ xa hoặc khi sử dụng lệnh `su` để chạy lệnh với tư cách người dùng khác.
 
-Các sự kiện không thành công thường chứa các chuỗi như “Failed password” và “user unknown”, trong khi các sự kiện xác thực thành công thường chứa các chuỗi như “Accepted password” và “session opened”. Những thông tin này sẽ được lưu lại trong file log của hệ thống `/var/log/auth.log`.
+Các sự kiện không thành công thường chứa các chuỗi như “authentication failure” và “user unknown”, trong khi các sự kiện xác thực thành công thường chứa các chuỗi như “Accepted password” và “session opened”. Những thông tin này sẽ được lưu lại trong file log của hệ thống `/var/log/auth.log`.
 
 Ta có thể check lại những thông tin này bằng `grep`
 
