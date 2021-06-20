@@ -190,6 +190,7 @@ Mỗi Network ACL bao gồm một quy tắc * (dấu hoa thị) làm số quy t�
 
 ## Tài liệu tham khảo
 https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+
 https://www.simplilearn.com/tutorials/aws-tutorial/aws-vpc
 
 
